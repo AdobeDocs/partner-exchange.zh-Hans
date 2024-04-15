@@ -13,7 +13,7 @@ ht-degree: 0%
 
 本文涵盖以下内容：
 
-* 现有AdobeExchange合作伙伴沙盒组织与共享AEP沙盒之间的区别。
+* 现有Adobe Exchange合作伙伴沙盒组织与共享AEP沙盒之间的区别。
 * 正在请求访问AEP共享沙盒。
 * 收到加入AEP共享沙盒的电子邮件邀请。
 * 邀请新用户加入 [!DNL Admin Console].
@@ -26,8 +26,8 @@ ht-degree: 0%
 Exchange合作伙伴有权访问各种Adobe [!DNL Experience Cloud] products(非AEP产品，如 [!DNL Analytics]， [!DNL Target]、Platform标签等)通过其自己的Adobe [!DNL Experience Cloud] 组织（非共享）。 合作伙伴拥有对其自身组织的系统管理员访问权限以管理用户和其他权限。 Adobe [!DNL Experience Platform] (AEP)的处理方式与其他Adobe沙盒不同。 主要区别如下：
 
 * 对AEP的访问不通过合作伙伴的主要Adobe [!DNL Experience Cloud] 沙盒组织。
-* 可通过共享AdobeExchange组织访问AEP。
-* 许多其他AdobeExchange合作伙伴公司正在使用同一组织访问AEP
+* 可通过共享Adobe Exchange组织访问AEP。
+* 许多其他Adobe Exchange合作伙伴公司正在使用同一组织访问AEP
    * 通过AEP沙盒功能，其他合作伙伴将无法查看或修改此共享组织内的数据和活动；每个合作伙伴将可以访问共享组织内的不同沙盒。
 * 此共享组织内的管理权限非常有限。
 * 授予合作伙伴访问AEP沙盒的权限后，他们将在UI的右上角的Org Switcher中看到两个组织，同时在Admin Console或主Experience Cloud主页中看到这两个组织。 但是，在登录到AEP时，应该只显示共享的组织。
