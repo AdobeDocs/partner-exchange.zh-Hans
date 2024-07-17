@@ -16,7 +16,7 @@ ht-degree: 0%
 # Adobe Exchange — 集成指南 {#integration-guides}
 
 + [AEP集成先决条件：访问和探索AEP沙盒](profile-ingestion/explore-sandbox.md)
-+ 数据引入和配置文件访问 {#profile-ingestion}
++ 数据引入和配置文件访问{#profile-ingestion}
    + [集成指南概述](profile-ingestion/profile-integration-overview.md)
    + [创建架构和数据集](profile-ingestion/schema-and-dataset.md)
    + [导入批次数据](profile-ingestion/batch-import.md)

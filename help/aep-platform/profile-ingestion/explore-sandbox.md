@@ -16,16 +16,16 @@ ht-degree: 0%
 * 现有Adobe Exchange合作伙伴沙盒组织与共享AEP沙盒之间的区别。
 * 正在请求访问AEP共享沙盒。
 * 收到加入AEP共享沙盒的电子邮件邀请。
-* 邀请新用户加入 [!DNL Admin Console].
+* 邀请新[!DNL Admin Console]用户。
 * 浏览AEP UI。
 
-有关AEP中沙盒技术的常规概述，请参阅此 [文章](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/home.html).
+有关AEP中沙盒技术的概述，请参阅此[文章](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)。
 
 ## 共享的AEP沙盒
 
-Exchange合作伙伴有权访问各种Adobe [!DNL Experience Cloud] products(非AEP产品，如 [!DNL Analytics]， [!DNL Target]、Platform标签等)通过其自己的Adobe [!DNL Experience Cloud] 组织（非共享）。 合作伙伴拥有对其自身组织的系统管理员访问权限以管理用户和其他权限。 Adobe [!DNL Experience Platform] (AEP)的处理方式与其他Adobe沙盒不同。 主要区别如下：
+Exchange合作伙伴可以通过其自己的Adobe[!DNL Experience Cloud]组织（非共享）访问各种Adobe[!DNL Experience Cloud]产品（非AEP产品，如[!DNL Analytics]、[!DNL Target]、Platform标记等）。 合作伙伴拥有对其自身组织的系统管理员访问权限以管理用户和其他权限。 Adobe[!DNL Experience Platform] (AEP)的处理方式与其他Adobe沙盒不同。 主要区别如下：
 
-* 对AEP的访问不通过合作伙伴的主要Adobe [!DNL Experience Cloud] 沙盒组织。
+* 对AEP的访问将不会通过合作伙伴主Adobe[!DNL Experience Cloud]沙盒组织。
 * 可通过共享Adobe Exchange组织访问AEP。
 * 许多其他Adobe Exchange合作伙伴公司正在使用同一组织访问AEP
    * 通过AEP沙盒功能，其他合作伙伴将无法查看或修改此共享组织内的数据和活动；每个合作伙伴将可以访问共享组织内的不同沙盒。
@@ -34,9 +34,9 @@ Exchange合作伙伴有权访问各种Adobe [!DNL Experience Cloud] products(非
 
 ## 请求访问共享AEP沙盒
 
-提交 [支持请求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) ，并提供以下信息：
+提交[支持请求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)，并提供以下信息：
 
-* Email Address
+* 电子邮件地址
 * 主题： AEP沙盒请求
 * 产品：常规配置/沙盒
 * 票证类型：项目支持 — Exchange项目/设置请求问题
@@ -45,13 +45,13 @@ Exchange合作伙伴有权访问各种Adobe [!DNL Experience Cloud] products(非
 
 ## 接收电子邮件邀请
 
-请求AEP沙盒的主要联系人将收到一封自动电子邮件，邀请他们“开始”使用Adobe [!DNL Experience Platform]. 主要联系人还将具有一些管理权限，这些权限将在下一节中介绍。
+请求AEP沙盒的主要联系人将收到一封自动电子邮件，邀请他们“开始”使用Adobe[!DNL Experience Platform]。 主要联系人还将具有一些管理权限，这些权限将在下一节中介绍。
 
-不要选择电子邮件中的“开始”按钮，而是直接导航到 `https://platform.adobe.com.` 使用与邀请中的电子邮件地址关联的Adobe ID登录，或者如果未与Adobe ID关联，则创建一个。
+不要选择电子邮件中的“开始使用”按钮，而是直接导航到与邀请中的电子邮件地址关联的Adobe ID登录页面`https://platform.adobe.com.`，或者创建一个(如果未与Adobe ID关联)。
 
 ## 邀请其他用户
 
-提交 [支持请求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) ，并提供以下信息：
+提交[支持请求](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)，并提供以下信息：
 
 * 请求者电子邮件地址
 * 主题： AEP沙盒 — 添加管理员/用户
