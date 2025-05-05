@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 一般资源
 
-* AEP [产品文档](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html)。
+* AEP [产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/landing/documentation/overview.html)。
 * AEP [可扩展性](https://www.adobe.com/insights/experience-platform-api-extensibility.html)。
 
 ## 有问题或反馈？

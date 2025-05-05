@@ -23,14 +23,14 @@ Adobe[!DNL Experience Platform]允许对配置文件和体验事件进行流式�
 
 ## 先决条件
 
-* [验证平台](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)。
+* [验证平台](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)。
 * 从上面链接的身份验证教程中收集所需标头的值。
 
 ## 创建流连接
 
 要流式传输到AEP，您必须先创建流式连接。 流连接包含流数据源等属性，以及您是否发送了属于[!DNL Experience Data Model] (XDM)架构的记录。 创建流连接后，您会获得一个唯一的URL，用于将数据流式传输到AEP中。
 
-转到[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)获取有关如何通过API创建流连接的说明，或者转到[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)获取有关如何通过UI创建流连接的说明。
+转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/create-streaming-connection.html)获取有关如何通过API创建流连接的说明，或者转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)获取有关如何通过UI创建流连接的说明。
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -73,7 +73,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 对于此部分，请使用Postman调用文件夹： 3：实时导入，3a：配置文件数据的实时导入。
 
-[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html)记录了包含流配置文件数据响应的详细JSON请求。
+[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/streaming-record-data.html)记录了包含流配置文件数据响应的详细JSON请求。
 
 步骤：
 
@@ -87,7 +87,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 对于此部分，请使用Postman调用文件夹： 3：实时导入，3b：配置文件数据的实时导入。
 
-[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html)记录了包含流体验数据响应的详细JSON请求。
+[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/streaming-time-series-data.html)记录了包含流体验数据响应的详细JSON请求。
 
 步骤：
 
