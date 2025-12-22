@@ -9,4 +9,4 @@ ht-degree: 0%
 
 此存储库已从Git Corp迁移到GitHub企业云。 新位置：
 
-<https://github.com/Adobe-Enterprise-Docs/partner-exchange.en>
+<https://github.com/Adobe-Enterprise-Docs/partner-exchange.zh-Hans>
