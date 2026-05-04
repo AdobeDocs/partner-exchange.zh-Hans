@@ -31,7 +31,7 @@ ht-degree: 1%
 * 邀请新[!DNL Admin Console]用户。
 * 浏览AEP UI。
 
-有关AEP中沙盒技术的概述，请参阅此[文章](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)。
+有关AEP中沙盒技术的概述，请参阅此[文章](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/home.html)。
 
 ## 共享的AEP沙盒
 
@@ -73,7 +73,7 @@ Exchange合作伙伴可以通过其自己的Adobe [!DNL Experience Cloud]组织�
 
 ## 浏览AEP UI
 
-观看AEP UI [简介视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+观看AEP UI [简介视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 AEP UI中有12个主要区域，可通过左侧面板导航。 但是，对于此类集成，最重要的部分是“架构”、“数据集”和“配置文件”。
 

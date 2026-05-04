@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 使用配置文件API访问统一配置文件
 
-Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Experience Platform] 实时客户个人资料API](https://adobe.ly/2TtDHWr)已设计为可与它进行交互。 请参阅此[教程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)，了解如何使用配置文件API访问实时客户配置文件数据。
+Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Experience Platform] 实时客户个人资料API](https://adobe.ly/2TtDHWr)已设计为可与它进行交互。 请参阅此[教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/getting-started.html)，了解如何使用配置文件API访问实时客户配置文件数据。
 
 本文将在很大程度上参考上面链接的教程。
 
@@ -30,7 +30,7 @@ Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Ex
 
 ### 验证[!DNL Platform]
 
-在执行以下任何调用之前，请参阅[此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)身份验证教程。
+在执行以下任何调用之前，请参阅[此](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)身份验证教程。
 
 ### API路径
 
@@ -54,7 +54,7 @@ API的基本路径为： `/data/core/ups/access/entities`
 
 ## 使用身份访问实时客户个人资料
 
-利用配置文件API，可通过GET请求使用身份访问配置文件。 以下部分将遵循此[指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)。
+利用配置文件API，可通过GET请求使用身份访问配置文件。 以下部分将遵循此[指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/entities.html)。
 
 ### 使用身份访问配置文件数据
 
@@ -468,5 +468,5 @@ curl -X GET \
 ## 参考文章
 
 * [实时客户资料API](https://adobe.ly/2TtDHWr)
-* [使用配置文件API教程访问实时客户配置文件数据](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform]身份验证指南](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
+* [使用配置文件API教程访问实时客户配置文件数据](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform]身份验证指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)
