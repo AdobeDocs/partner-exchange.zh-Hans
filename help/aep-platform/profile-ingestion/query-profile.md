@@ -2,9 +2,14 @@
 title: 访问统一配置文件
 description: 使用API访问统一配置文件。
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -393,7 +398,7 @@ curl -X GET \
 
 ### 用户档案的时间系列事件分页
 
-检索时序事件时，结果将分页。 如果有后续结果页面，则响应的&amp;amp；lowbar；page.next参数将包含一个ID。 此外，响应的&amp;amp；lowbar；links.next.href参数提供了用于检索后续页面的请求URI。
+检索时序事件时，结果将分页。 如果有后续的结果页，则响应的&amp;lowbar；page.next参数将包含一个ID。 此外，响应的&amp;lowbar；links.next.href参数提供了用于检索后续页面的请求URI。
 
 请求：
 
@@ -411,7 +416,7 @@ curl -X GET \
 
 响应：
 
-成功的响应将返回结果的下一页。 此示例演示了没有后续结果页面的响应，如&amp;amp；lowbar；page.next和&amp;amp；lowbar；links.next.href的空字符串值所示。
+成功的响应将返回结果的下一页。 此示例演示了没有后续结果页的响应，如&amp;lowbar；page.next和&amp;lowbar；links.next.href的空字符串值所示。
 
 ```
 {
@@ -462,6 +467,6 @@ curl -X GET \
 
 ## 参考文章
 
-* [实时客户个人资料API](https://adobe.ly/2TtDHWr)
+* [实时客户资料API](https://adobe.ly/2TtDHWr)
 * [使用配置文件API教程访问实时客户配置文件数据](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 身份验证指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)
+* [[!DNL Experience Platform]身份验证指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)

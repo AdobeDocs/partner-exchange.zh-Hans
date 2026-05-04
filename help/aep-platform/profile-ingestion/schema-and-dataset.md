@@ -1,11 +1,16 @@
 ---
-title: 创建AEP模式和数据集
+title: 创建AEP架构和数据集
 description: 在Experience Platform中创建架构和数据集。
 exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/uQtIQwCgsjOd5pR5w4LF634-Whvjl0jmF5WywVWlkZQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 10%
+source-wordcount: 617
+ht-degree: 17%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 10%
 
 ## 架构
 
-架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。 可以在UI中或使用[!DNL Experience Platform] API创建架构。
+架构是一组规则，用于表示和验证数据的结构和格式。 在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。 可以在UI中或使用[!DNL Experience Platform] API创建架构。
 
 有关详细信息，请参阅[此文档](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md)。
 
@@ -31,7 +36,7 @@ ht-degree: 10%
 
 ## 数据集
 
-引入Adobe[!DNL Experience Platform]的所有数据都包含在数据集中。 数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各个方面的元数据。
+导入到Adobe [!DNL Experience Platform]中的所有数据都包含在数据集中。 数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。 数据集还包含描述其存储的数据的各方面特性的元数据。
 
 目录服务是[!DNL Experience Platform]内数据位置和族系的记录系统，用于创建和管理数据集。 目录跟踪每个数据集的元数据，其中包括对数据集符合的体验数据模型(XDM)架构的引用（下一节中有说明）以及摄取到该数据集的记录数。
 
@@ -62,6 +67,6 @@ We don't yet support hover text in images (and we render it poorly when included
 ## 适用于合作伙伴的架构和数据集最佳实践
 
 * 与为客户现有的配置文件架构和体验架构创建混合模式相比，合作伙伴数据应使用单独的配置文件架构。
-* 合作伙伴应尽可能使用Adobe类和混合语言。
+* 合作伙伴应尽可能使用Adobe课程和混合教程。
 * 合作伙伴应使用单独的数据集上传其数据，而不是尝试将其数据合并到现有的数据集中。
 * 合作伙伴目前无法将其架构上传到全局注册表。
