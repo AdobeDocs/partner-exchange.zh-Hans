@@ -1,17 +1,20 @@
 ---
-title: “[!DNL Platform]配置文件摄取和访问集成指南概述”
+title: '[!DNL Platform]配置文件摄取和访问集成指南概述'
 description: 了解 [!DNL Experience Platform] 配置文件摄取和访问的集成。
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 1%
 
 ---
 
 # 集成指南： [!DNL Experience Platform]配置文件摄取和访问
 
-合作伙伴应使用此集成指南来帮助他们使用Adobe[!DNL Experience Platform] (AEP)构建入口和出口功能。 有API可用于批量摄取、流式摄取和统一配置文件访问（出口）。
+合作伙伴应使用此集成指南来帮助他们使用Adobe [!DNL Experience Platform] (AEP)构建入口和出口功能。 有API可用于批量摄取、流式摄取和统一配置文件访问（出口）。
 
 为了协助开发，Adobe Exchange团队已创建[Postman收藏集](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman)。 在整个集成指南中都会引用此Postman收藏集。
 
@@ -23,11 +26,11 @@ ht-degree: 0%
 
 以交互式语音响应(IVR)系统和呼叫中心管理软件为例。 供应商可以使用[!DNL Experience Platform] API在体验数据湖中摄取客户呼叫中心活动的历史信息。 如果数据是通过XDM `ExperienceEvent`架构（表示客户交互的架构）引入的，则这些交互可以直接引入统一配置文件服务，而不会产生任何摩擦。 在这种情况下，`callerId`用作客户的标识符。 Identity Service将负责身份解析并协助Unified Profile Service将最近与呼叫中心交互的任何数据点添加到客户个人资料中。
 
-客户下次致电呼叫中心时，将首先由IVR接听。 要个性化留言并投放专为来电者定制的优惠，IVR系统需要了解有关来电者的更多信息。 要实现API与统一配置文件的集成，请参阅此处。 IVR后端可以联系统一配置文件服务进行点查找。 然后，查阅仅适用于呼叫中心交互的用户档案属性或完整客户档案，后者也具有适用于其他接触点上的交互的属性。 通过组合来自多个数据源的数据、使用身份解析和统一配置文件，呼叫中心和IVR提供商可以提供定制的客户体验，并受Adobe[!DNL Experience Platform]的支持。”
+客户下次致电呼叫中心时，将首先由IVR接听。 要个性化留言并投放专为来电者定制的优惠，IVR系统需要了解有关来电者的更多信息。 要实现API与统一配置文件的集成，请参阅此处。 IVR后端可以联系统一配置文件服务进行点查找。 然后，查阅仅适用于呼叫中心交互的用户档案属性或完整客户档案，后者也具有适用于其他接触点上的交互的属性。 通过使用身份解析和统一配置文件组合来自多个数据源的数据，呼叫中心和IVR提供商可以提供量身定制的客户体验，并受Adobe [!DNL Experience Platform]的支持。”
 
 ## 一般资源
 
-* AEP [产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/landing/documentation/overview.html)。
+* AEP [产品文档](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html)。
 * AEP [可扩展性](https://www.adobe.com/insights/experience-platform-api-extensibility.html)。
 
 ## 有问题或反馈？

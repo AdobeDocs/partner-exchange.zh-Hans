@@ -2,16 +2,19 @@
 title: 访问统一配置文件
 description: 使用API访问统一配置文件。
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
 
 # 使用配置文件API访问统一配置文件
 
-Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Experience Platform] 实时客户个人资料API](https://adobe.ly/2TtDHWr)已设计为可与它进行交互。 请参阅此[教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/getting-started.html)，了解如何使用配置文件API访问实时客户配置文件数据。
+Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Experience Platform] 实时客户个人资料API](https://adobe.ly/2TtDHWr)已设计为可与它进行交互。 请参阅此[教程](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)，了解如何使用配置文件API访问实时客户配置文件数据。
 
 本文将在很大程度上参考上面链接的教程。
 
@@ -25,7 +28,7 @@ Adobe [!DNL Experience Platform]可以实时访问客户个人资料；[[!DNL Ex
 
 ### 验证[!DNL Platform]
 
-在执行以下任何调用之前，请参阅[此](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)身份验证教程。
+在执行以下任何调用之前，请参阅[此](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)身份验证教程。
 
 ### API路径
 
@@ -49,7 +52,7 @@ API的基本路径为： `/data/core/ups/access/entities`
 
 ## 使用身份访问实时客户个人资料
 
-利用配置文件API，可通过GET请求使用身份访问配置文件。 以下部分将遵循此[指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/entities.html)。
+利用配置文件API，可通过GET请求使用身份访问配置文件。 以下部分将遵循此[指南](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)。
 
 ### 使用身份访问配置文件数据
 
@@ -329,7 +332,7 @@ curl -X POST \
 通过向/access/entities端点发出GET请求，可使用关联配置文件实体的身份访问时间序列事件。 此身份包含ID值(entityId)和身份命名空间(entityIdNS)。
 
 请求：
-以下请求按ID查找配置文件实体，并检索与该实体关联的所有&#x200B;**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
+以下请求按ID查找配置文件实体，并检索与该实体关联的所有**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
 
 ```
 curl -X GET \
@@ -393,7 +396,7 @@ curl -X GET \
 
 ### 用户档案的时间系列事件分页
 
-检索时序事件时，结果将分页。 如果有后续结果页面，则响应的&amp;amp；lowbar；page.next参数将包含一个ID。 此外，响应的&amp;amp；lowbar；links.next.href参数提供了用于检索后续页面的请求URI。
+检索时序事件时，结果将分页。 如果有后续的结果页，则响应的&amp;lowbar；page.next参数将包含一个ID。 此外，响应的&amp;lowbar；links.next.href参数提供了用于检索后续页面的请求URI。
 
 请求：
 
@@ -411,7 +414,7 @@ curl -X GET \
 
 响应：
 
-成功的响应将返回结果的下一页。 此示例演示了没有后续结果页面的响应，如&amp;amp；lowbar；page.next和&amp;amp；lowbar；links.next.href的空字符串值所示。
+成功的响应将返回结果的下一页。 此示例演示了没有后续结果页的响应，如&amp;lowbar；page.next和&amp;lowbar；links.next.href的空字符串值所示。
 
 ```
 {
@@ -462,6 +465,6 @@ curl -X GET \
 
 ## 参考文章
 
-* [实时客户个人资料API](https://adobe.ly/2TtDHWr)
-* [使用配置文件API教程访问实时客户配置文件数据](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 身份验证指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)
+* [实时客户资料API](https://adobe.ly/2TtDHWr)
+* [使用配置文件API教程访问实时客户配置文件数据](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform]身份验证指南](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)

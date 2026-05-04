@@ -2,16 +2,18 @@
 title: 实时导入
 description: 了解如何实时将数据导入AEP。
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: 642
+ht-degree: 4%
 
 ---
 
 # 将数据流式传输到AEP
 
-Adobe[!DNL Experience Platform]允许对配置文件和体验事件进行流式传输并近乎实时地提供。 所有通过流式传输发送到AEP的数据都会保留在数据湖中。 Adobe可以通过API或使用Launch将数据流式传输到现有数据集或全新的数据集。
+Adobe [!DNL Experience Platform]允许对配置文件和体验事件进行流式传输并近乎实时地提供。 所有通过流式传输发送到AEP的数据都会保留在数据湖中。 可以通过API或使用Adobe Launch将数据流式传输到现有数据集或全新的数据集。
 
 本文将介绍以下内容：
 
@@ -23,14 +25,14 @@ Adobe[!DNL Experience Platform]允许对配置文件和体验事件进行流式�
 
 ## 先决条件
 
-* [验证平台](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/authentication.html)。
+* [验证平台](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)。
 * 从上面链接的身份验证教程中收集所需标头的值。
 
 ## 创建流连接
 
-要流式传输到AEP，您必须先创建流式连接。 流连接包含流数据源等属性，以及您是否发送了属于[!DNL Experience Data Model] (XDM)架构的记录。 创建流连接后，您会获得一个唯一的URL，用于将数据流式传输到AEP中。
+要流式传输到AEP，您必须先创建流连接。 流连接包含流数据源等属性，以及您是否发送了属于[!DNL Experience Data Model] (XDM)架构的记录。 创建流连接后，您会获得一个唯一的URL，您可以使用该URL将数据流式传输到AEP。
 
-转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/create-streaming-connection.html)获取有关如何通过API创建流连接的说明，或者转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)获取有关如何通过UI创建流连接的说明。
+转到[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)获取有关如何通过API创建流连接的说明，或者转到[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)获取有关如何通过UI创建流连接的说明。
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -67,13 +69,13 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 }
 ```
 
-请务必保存上述响应中提供的ID，以便将来进行流式摄取调用(Postman收藏集会将此ID保存在CONNECTION_ID环境变量中)。
+请务必保存上述响应中提供的ID，以便将来进行流式摄取调用（Postman收藏集会将此ID保存在CONNECTION_ID环境变量中）。
 
 ## 将配置文件数据流式传输到AEP
 
 对于此部分，请使用Postman调用文件夹： 3：实时导入，3a：配置文件数据的实时导入。
 
-[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/streaming-record-data.html)记录了包含流配置文件数据响应的详细JSON请求。
+[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html)记录了包含流配置文件数据响应的详细JSON请求。
 
 步骤：
 
@@ -87,7 +89,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 对于此部分，请使用Postman调用文件夹： 3：实时导入，3b：配置文件数据的实时导入。
 
-[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/tutorials/streaming-time-series-data.html)记录了包含流体验数据响应的详细JSON请求。
+[此处](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html)记录了包含流体验数据响应的详细JSON请求。
 
 步骤：
 
@@ -99,11 +101,11 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 ## 使用Experience Platform标记流式传输到AEP
 
-Adobe[!DNL Experience Platform] Launch扩展提供了一种通过Launch流式传输到AEP的方法。 若要了解详细信息，请参阅[本指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)。
+Adobe [!DNL Experience Platform] Launch扩展提供了一种通过Launch流式传输到AEP的方法。 若要了解详细信息，请参阅[本指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)。
 
 ## 参考文章
 
 * [数据摄取API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
 * [流式摄取概述](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
-* [流式摄取开发人员指南](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [流摄取开发人员指南](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
 * [使用AEP Launch扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)
