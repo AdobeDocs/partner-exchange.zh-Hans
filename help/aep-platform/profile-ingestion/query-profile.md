@@ -3,8 +3,10 @@ title: 访问统一配置文件
 description: 使用API访问统一配置文件。
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 797
@@ -332,7 +334,7 @@ curl -X POST \
 通过向/access/entities端点发出GET请求，可使用关联配置文件实体的身份访问时间序列事件。 此身份包含ID值(entityId)和身份命名空间(entityIdNS)。
 
 请求：
-以下请求按ID查找配置文件实体，并检索与该实体关联的所有**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
+以下请求按ID查找配置文件实体，并检索与该实体关联的所有&#x200B;**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
 
 ```
 curl -X GET \
