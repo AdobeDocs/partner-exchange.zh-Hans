@@ -5,22 +5,27 @@ exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 TQID: https://experienceleague.adobe.com/A5sl-xNZBPjIKn6HO1iwM78IaQWQs4yBgbw9wwpMrGw
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 1%
-
 ---
-
 # 访问和探索AEP沙盒
 
 本文涵盖以下内容：
@@ -40,9 +45,9 @@ Exchange合作伙伴可以通过其自己的Adobe [!DNL Experience Cloud]组织�
 * 对AEP的访问将不会通过合作伙伴的主要Adobe [!DNL Experience Cloud]沙盒组织进行。
 * 可通过共享的AEP组织访问Adobe Exchange。
 * 许多其他Adobe Exchange合作伙伴公司正在使用相同的组织访问AEP
-   * 通过AEP沙盒功能，其他合作伙伴将无法查看或修改此共享组织内的数据和活动；每个合作伙伴将可以访问共享组织内的其他沙盒。
+  * 通过AEP沙盒功能，其他合作伙伴将无法查看或修改此共享组织内的数据和活动；每个合作伙伴将可以访问共享组织内的其他沙盒。
 * 此共享组织内的管理权限非常有限。
-* 授予合作伙伴访问AEP上的沙盒的权限后，他们将在UI的右上角的“组织”切换器中看到两个组织，同时在Admin Console或Experience Cloud主页中。 但是，在登录到AEP时，应该只显示共享的组织。
+* 授予合作伙伴访问AEP沙盒的权限后，他们将在UI的右上角的“组织”切换器中看到两个组织，同时在Admin Console或Experience Cloud主页面中看到这两个组织。 但是，在登录到AEP时，应该只显示共享的组织。
 
 ## 请求访问共享的AEP沙盒
 
@@ -79,9 +84,9 @@ AEP UI中有12个主要区域，可通过左侧面板导航。 但是，对于�
 
 * 主页 — 登陆屏幕
 
-   * 建议一些入门活动
-   * 提供一些指向学习内容的链接
-   * 提供某些主要AEP对象的仪表板视图，如架构、数据集和配置文件
+  * 建议一些入门活动
+  * 提供一些指向学习内容的链接
+  * 提供某些主要AEP对象的仪表板视图，如架构、数据集和配置文件
 
 * 工作流 — 启动到用于将数据引入AEP的常用工作流中
 * 连接/源 — 管理进入AEP的数据源
