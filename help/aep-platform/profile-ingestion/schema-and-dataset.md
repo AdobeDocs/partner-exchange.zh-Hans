@@ -26,11 +26,11 @@ ht-degree: 17%
 
 ### 创建架构
 
-合作伙伴可以按照此[教程](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html)，使用UI构建架构。 此示例使用忠诚度计划用户档案架构。 虽然配置文件架构是一个示例，但可以使用基于事件的架构进行类似的过程。
+合作伙伴可以按照此[教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/tutorials/create-schema-ui.html)，使用UI构建架构。 此示例使用忠诚度计划用户档案架构。 虽然配置文件架构是一个示例，但可以使用基于事件的架构进行类似的过程。
 
 要使用API，合作伙伴必须启用具有[!DNL Experience Platform]权限的现有Adobe I/O集成。 请参阅本指南，以[创建I/O集成](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
 
-然后访问[此链接](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html)，了解如何使用API构建架构。
+然后访问[此链接](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/tutorials/create-schema-api.html)，了解如何使用API构建架构。
 
 要通过Postman创建架构，请使用文件夹1：创建架构、1a：为PROFILE数据创建架构或1b：为EVENT数据创建架构中包含的调用。
 
@@ -40,7 +40,7 @@ ht-degree: 17%
 
 目录服务是[!DNL Experience Platform]内数据位置和族系的记录系统，用于创建和管理数据集。 目录跟踪每个数据集的元数据，其中包括对数据集符合的体验数据模型(XDM)架构的引用（下一节中有说明）以及摄取到该数据集的记录数。
 
-请转到[此处](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html)查看详细的数据集概述。
+请转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/overview.html)查看详细的数据集概述。
 
 ### 创建数据集
 
@@ -58,9 +58,9 @@ We don't yet support hover text in images (and we render it poorly when included
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-请转到[此处](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html)查看数据集用户指南。
+请转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/user-guide.html)查看数据集用户指南。
 
-[使用API创建数据集](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html)。
+[使用API创建数据集](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/create.html)。
 
 要通过Postman创建数据集，请使用文件夹2：创建数据集，2a：为配置文件数据创建数据集，或2b：为EVENT数据创建数据集。
 
