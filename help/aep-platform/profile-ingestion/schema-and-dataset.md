@@ -5,32 +5,32 @@ exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
 TQID: https://experienceleague.adobe.com/uQtIQwCgsjOd5pR5w4LF634-Whvjl0jmF5WywVWlkZQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Metadata
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 17%
-
 ---
-
 # 创建架构和数据集
 
 整篇文章都使用关联的电话号码引用[Postman集合](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman)。 有关安装和使用Postman收藏集的更多详细信息，请参阅Github [自述文件](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md)页面。 还有[忠诚度](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json)和[个人资料](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json)数据的样本数据集。
 
 ## 架构
 
-架构是一组规则，用于表示和验证数据的结构和格式。 在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。 可以在UI中或使用[!DNL Experience Platform] API创建架构。
+架构是一组规则，用于表示和验证数据的结构和格式。 总体而言，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。 可以在UI中或使用[!DNL Experience Platform] API创建架构。
 
 有关详细信息，请参阅[此文档](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md)。
 
 ### 创建架构
 
-合作伙伴可以按照此[教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/tutorials/create-schema-ui.html)，使用UI构建架构。 此示例使用忠诚度计划用户档案架构。 虽然配置文件架构是一个示例，但可以使用基于事件的架构进行类似的过程。
+合作伙伴可以按照此[教程](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html)，使用UI构建架构。 此示例使用忠诚度计划用户档案架构。 虽然配置文件架构是一个示例，但可以使用基于事件的架构进行类似的过程。
 
 要使用API，合作伙伴必须启用具有[!DNL Experience Platform]权限的现有Adobe I/O集成。 请参阅本指南，以[创建I/O集成](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
 
-然后访问[此链接](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/tutorials/create-schema-api.html)，了解如何使用API构建架构。
+然后访问[此链接](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html)，了解如何使用API构建架构。
 
 要通过Postman创建架构，请使用文件夹1：创建架构、1a：为PROFILE数据创建架构或1b：为EVENT数据创建架构中包含的调用。
 
@@ -40,7 +40,7 @@ ht-degree: 17%
 
 目录服务是[!DNL Experience Platform]内数据位置和族系的记录系统，用于创建和管理数据集。 目录跟踪每个数据集的元数据，其中包括对数据集符合的体验数据模型(XDM)架构的引用（下一节中有说明）以及摄取到该数据集的记录数。
 
-请转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/overview.html)查看详细的数据集概述。
+请转到[此处](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html)查看详细的数据集概述。
 
 ### 创建数据集
 
@@ -58,9 +58,9 @@ We don't yet support hover text in images (and we render it poorly when included
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-请转到[此处](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/user-guide.html)查看数据集用户指南。
+请转到[此处](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html)查看数据集用户指南。
 
-[使用API创建数据集](https://docs.adobe.com/content/help/zh-Hans/experience-platform/catalog/datasets/create.html)。
+[使用API创建数据集](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html)。
 
 要通过Postman创建数据集，请使用文件夹2：创建数据集，2a：为配置文件数据创建数据集，或2b：为EVENT数据创建数据集。
 

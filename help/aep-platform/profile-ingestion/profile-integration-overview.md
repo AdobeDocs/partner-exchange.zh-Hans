@@ -1,20 +1,21 @@
 ---
 title: '[!DNL Platform]配置文件摄取和访问集成指南概述'
-description: 了解 [!DNL Experience Platform] 配置文件摄取和访问的集成。
+description: 了解[!DNL Experience Platform]配置文件摄取和访问的集成。
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Insights
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '493'
 ht-degree: 1%
-
 ---
-
 # 集成指南： [!DNL Experience Platform]配置文件摄取和访问
 
 合作伙伴应使用此集成指南来帮助他们使用Adobe [!DNL Experience Platform] (AEP)构建入口和出口功能。 有API可用于批量摄取、流式摄取和统一配置文件访问（出口）。
@@ -33,7 +34,7 @@ ht-degree: 1%
 
 ## 一般资源
 
-* AEP [产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/landing/documentation/overview.html)。
+* AEP [产品文档](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html)。
 * AEP [可扩展性](https://www.adobe.com/insights/experience-platform-api-extensibility.html)。
 
 ## 有问题或反馈？
