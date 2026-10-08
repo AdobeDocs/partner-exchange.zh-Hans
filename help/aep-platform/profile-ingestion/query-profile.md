@@ -334,7 +334,7 @@ curl -X POST \
 通过向/access/entities端点发出GET请求，时间序列事件可通过其关联的配置文件实体的身份进行访问。 此身份包含ID值(entityId)和身份命名空间(entityIdNS)。
 
 请求：
-以下请求按ID查找配置文件实体，并检索与该实体关联的所有**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
+以下请求按ID查找配置文件实体，并检索与该实体关联的所有&#x200B;**时序事件的属性endUserIDs、Web和渠道**&#x200B;的值。
 
 ```
 curl -X GET \
